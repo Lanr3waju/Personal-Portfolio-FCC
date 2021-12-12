@@ -101,23 +101,24 @@ html {
   margin-left: auto;
 }
 
-.description:hover::before {
-  content: "< ";
-  color: brown;
-  transition: transform, 1s, ease-in-out, 1s;
-}
-
-.description:hover::after {
-  content: " />";
-  color: brown;
-  transition: transform, 1s, ease-in-out, 1s;
-}
-
 .description {
   color: white;
   margin-top: 15px;
   width: 100%;
   font-size: 1.4em;
+  transition: transform, 1s, ease-in-out, 1s;
+}
+
+.work-img:hover .description::before {
+  content: "< ";
+  color: brown;
+  transition: transform, 1s, ease-in-out, 1s;
+}
+
+.work-img:hover .description::after {
+  content: " />";
+  color: brown;
+  transition: transform, 1s, ease-in-out, 1s;
 }
 
 #navbar {
