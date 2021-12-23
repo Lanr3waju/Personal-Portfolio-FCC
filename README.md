@@ -1,26 +1,37 @@
-# Personal Portfolio Page
+# Survey Form
 
-> This is my last freecodecamp project on responsive design
+> This website is a landing page on trombones, it has a navbar, iframe and other html and css elements and components.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/preview.png)
 
-This is a webpage on my projects and links to other works.
+This is the fourth freecodecamp project on responsive web design, and it is a technical documentation page on JavaScript, it implements a number of html and css features; grid, media query etc.
 
 ## Built With
 
-- HTML,
-- CSS,
+- HTML
+
+  - Unordered List (To list out certain items on the page)
+  - nav tags
+  - footer tags
+  - code tags
+  - p- tags
+
+- CSS
+  - Pseudo-selectors (hover; to add hover effect to certain elements)
+  - Grid (It is used in the body of the html to create the sidebar)
+  - Flexbox for appropriate layout of the works section
+  - Media query (It is used to make the webpage responsive to smaller devices)
 
 ## Live Demo
 
-[Live Demo Link](https://abass-portfolio.netlify.app/)
+[Live Demo Link](https://abass-abd-wasi-portfolio.netlify.app)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/Lanr3waju/Personal-Portfolio-FCC.git
 
 ```
 
@@ -69,9 +80,8 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@Lanr3waju]https://github.com/Lanr3waju)
+- Instagram: [@Abass Olanrewaju](https://www.instagram.com/abass.abdul.wasii)
 
 ## 🤝 Contributing
 
@@ -85,9 +95,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- I commend freeCodeCamp for the responsive web design test, made public to improve up and coming developers
+- I appreciate the efforts of my mentors in the web development for their guidance and contribtution
 
 ## 📝 License
 

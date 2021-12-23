@@ -19,6 +19,13 @@ h1 {
   text-shadow: 0 5px 3px rgb(12, 47, 53);
 }
 
+h2 {
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 0 5px 3px rgb(12, 47, 53);
+}
+
 #sub-text {
   color: rgb(150, 59, 59);
   font-size: 2em;
