@@ -256,8 +256,87 @@ li {
   font-weight: lighter;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 500px) {
   body {
     background-color: aliceblue;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90%;
+  }
+
+  #nav-bar {
+    position: relative;
+  }
+
+  a {
+    padding: 0;
+    font-size: 1.1em;
+    width: 80%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .project-tile {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto auto auto auto auto auto;
+    row-gap: 0;
+    width: 90%;
+    height: 2500px;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 36px;
+    margin-right: auto;
+  }
+
+  .work-img {
+    background-color: rgb(27, 29, 30);
+    padding-bottom: 15px;
+    box-shadow: 2px 4px 3px rgb(12, 47, 53);
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .flekz {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav {
+    padding: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 100%;
+  }
+
+  .text {
+    padding: 10px;
+    line-height: 30px;
+  }
+
+  .foot-text {
+    padding-left: 3px;
+    float: left;
+    font-size: smaller;
+    margin-top: 0;
+    padding-top: 50px;
+    font-family: ubuntu, sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    background-color: rgb(15, 52, 58);
+    color: white;
   }
 }
