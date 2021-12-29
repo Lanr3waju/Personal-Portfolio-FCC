@@ -1,16 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Page</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/87c7983292.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <ul id="navbar">
+        <li>
+          <a
+            class="nav"
+            href="https://github.com/Lanr3waju"
+            id="profile-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Contact</a
+          >
+        </li>
+        <li><a class="nav" href="#work-text">Works</a></li>
+        <li><a class="nav" href="#about-me">About</a></li>
+      </ul>
+    </nav>
 
+    <div id="welcome-section">
+      <h1>Hello I am Abass Olanrewaju Wasiu</h1>
+      <p id="sub-text">a photographer</p>
+    </div>
 
+    <section id="work-text"><h2 id="text">Work Section</h2></section>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
+    <section id="projects">
+      <h2 id="project-title">These are some of my Works</h2>
+      <div class="project-tile">
+        <div class="work-img">
+          <img src="./img/work1.jpg" alt="Picture" />
+          <div class="description">Sunset</div>
+        </div>
+        <div class="work-img">
+          <img src="./img/work2.jpg" alt="Picture" />
+          <div class="description">Sahabat-Naria</div>
+        </div>
+        <div class="work-img">
+          <img src="./img/work3.jpg" alt="Picture" />
+          <div class="description">NOON</div>
+        </div>
+        <div class="work-img">
+          <img src="./img/work4.jpg" alt="Picture" />
+          <div class="description">Cococa</div>
+        </div>
+        <div class="work-img">
+          <img src="./img/work5.jpg" alt="Picture" />
+          <div class="description">Window</div>
+        </div>
+        <div class="work-img">
+          <img src="./img/work6.jpg" alt="Picture" />
+          <div class="description">Macro</div>
+        </div>
+      </div>
+    </section>
+
+    <div id="insta-link">
+      <a
+        class="insta"
+        href="https://www.instagram.com/abass.abdul.wasii/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >See More <span id="anime">></span></a
+      >
+    </div>
+
+    <section id="author-section">
+      <div id="about-me"></div>
+
+      <h2>Lets work together...</h2>
+      <p id="auth">how do you like your frames?</p>
+      <div id="auth-links">
+        <ul class="flekz">
+          <li class="translate">
+            <a href="https://web.facebook.com/profile.php?id=100073905613131"
+              ><span class="text"><i class="fab fa-facebook"></i> Abdul-Wasi Lanrewaju Abass</span>
+            </a>
+          </li>
+          <li class="translate">
+            <a href="https://wa.me/23408076255087"
+              ><span class="text"><i class="fab fa-whatsapp"></i> Message me</span></a
+            >
+          </li>
+          <li class="translate">
+            <a href="https://www.instagram.com/abass.abdul.wasii/"
+              ><span class="text"><i class="fab fa-instagram"></i> Abass.Abdul.Wasi</span></a
+            >
+          </li>
+          <li class="translate">
+            <a href="https://github.com/Lanr3waju?tab=repositories"
+              ><span class="text"><i class="fab fa-github"></i> Lanr3waju</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="box"></div>
+
+    <footer class="foot">
+      <p class="foot-text">
+        ***This is not a fake portfolio. All the projects and contact details given are real.
+        <span id="copy">for Abass Abdul Wasi</span>
+      </p>
+    </footer>
+  </body>
 </html>
